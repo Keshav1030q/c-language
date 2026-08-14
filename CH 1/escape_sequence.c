@@ -8,6 +8,7 @@ int main(){
     printf("Hey i am good \" nice"); // add " between
     printf("Hey i am good \' nice"); // add ' between
     printf("Hey i am good \t nice"); // add space betweem
+    printf("Hey i am good \t nice"); // add space betweem
     printf("Hey i am good \n nice"); // change line
     printf("Hey i am good \\ nice");  // add \ 
     printf("Hey i am good \\n nice");
