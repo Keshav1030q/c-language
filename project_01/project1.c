@@ -12,7 +12,7 @@ int main()
     srand(time(NULL));
 
     // Generate random number from 1 to 100
-    randomNumber = (rand() % 100) + 1;
+    randomNumber = (rand() % 1000) + 1;
 
     // printf("Random number: %d\n", randomNumber);
 
