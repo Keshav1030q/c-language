@@ -12,7 +12,7 @@ int main()
     srand(time(NULL));
 
     // Generate random number from 1 to 100
-    randomNumber = (rand() % 1000) + 1;
+    randomNumber = (rand() % 1000)+1;
 
     // printf("Random number: %d\n", randomNumber);
 
@@ -22,11 +22,11 @@ int main()
     {
         if (randomNumber > guess)
         {
-            printf("GO UP \n");
+            printf("GO UP\n");
         }
         else if (randomNumber < guess)
         {
-            printf("GO DOWN \n");
+            printf("GO DOWN\n");
         }
         else if(randomNumber == guess)
         {
